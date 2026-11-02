@@ -5,10 +5,15 @@
 
 <p align="center">
   <a href="https://github.com/arafatsec">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=8AADF4&center=true&vCenter=true&width=680&lines=IT+Automation+Specialist+%40+IUBAT;Building+the+systems+a+university+runs+on;Grading+thousands+of+exam+sheets+with+computer+vision;Security+%C2%B7+bug+hunting+%C2%B7+server+hardening;Measuring+internet+shutdowns+in+Bangladesh" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=8AADF4&center=true&vCenter=true&width=680&lines=IT+Automation+Specialist+%40+IUBAT;Security+researcher+%C2%B7+CVE-2026-42521+(Jenkins);Bug+bounty+on+HackerOne+%C2%B7+Bugcrowd+%C2%B7+Intigriti;Building+the+systems+a+university+runs+on;Grading+thousands+of+exam+sheets+with+computer+vision;Measuring+internet+shutdowns+in+Bangladesh" alt="Typing SVG" />
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/arafatsec14/"><img src="https://img.shields.io/badge/LinkedIn-arafatsec14-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=363A4F" alt="LinkedIn" /></a>
+  <a href="https://www.jenkins.io/security/advisory/2026-04-29/#SECURITY-3676"><img src="https://img.shields.io/badge/CVE--2026--42521-CVSS%206.5-ED8796?style=for-the-badge&logo=jenkins&logoColor=white&labelColor=363A4F" alt="CVE-2026-42521" /></a>
+  <img src="https://img.shields.io/badge/handle-elaichix-F5A97F?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=363A4F" alt="elaichix" />
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Dhaka-Bangladesh-C6A0F6?style=for-the-badge&logo=googlemaps&logoColor=24273A&labelColor=363A4F" alt="Dhaka, Bangladesh" />
   <img src="https://img.shields.io/badge/IUBAT-IT%20Automation%20Office-8AADF4?style=for-the-badge&logo=academia&logoColor=24273A&labelColor=363A4F" alt="IUBAT" />
@@ -26,6 +31,8 @@ class Arafat:
     role      = "IT Automation Specialist @ IUBAT (IT Automation Office · IIEC-IUBAT)"
     location  = "Dhaka, Bangladesh 🇧🇩"
     speaks    = ["Bangla", "English"]
+    handle    = "elaichix"            # bug bounty & disclosure credits
+    cves      = ["CVE-2026-42521"]    # Jenkins Matrix Authorization Strategy plugin
 
     builds    = ["university platforms", "OMR exam grading", "ID & identity systems",
                  "attendance & HR automation", "edge devices on Raspberry Pi"]
@@ -40,6 +47,30 @@ class Arafat:
         "Measure on real data before calling it done.",
     ]
 ```
+
+### 🛡️ Bug bounty & CVEs
+
+Security researcher on **HackerOne**, **Bugcrowd** and **Intigriti**, under the handle **`elaichix`**.
+
+<table align="center">
+  <tr>
+    <td>
+      <h3>🐞 <a href="https://www.jenkins.io/security/advisory/2026-04-29/#SECURITY-3676">CVE-2026-42521</a>: Jenkins Matrix Authorization Strategy Plugin</h3>
+      <b>Unsafe deserialization</b> of inheritance strategies: the plugin invoked parameterless constructors of classes named in configuration without restricting which classes could be instantiated. An attacker with <code>Item/Configure</code> permission could instantiate arbitrary types, which could lead to information disclosure or other impact depending on the classpath.<br/><br/>
+      <img src="https://img.shields.io/badge/CVSS-6.5%20Medium-EED49F?style=flat-square&labelColor=363A4F" alt="CVSS 6.5" />
+      <img src="https://img.shields.io/badge/affected-2.0--beta--1%20%E2%86%92%203.2.9-8AADF4?style=flat-square&labelColor=363A4F" alt="Affected versions" />
+      <img src="https://img.shields.io/badge/published-29%20Apr%202026-C6A0F6?style=flat-square&labelColor=363A4F" alt="Published" />
+      <img src="https://img.shields.io/badge/advisory-SECURITY--3676-D24939?style=flat-square&logo=jenkins&logoColor=white&labelColor=363A4F" alt="SECURITY-3676" /><br/><br/>
+      <sub>Credited in the <a href="https://www.jenkins.io/security/advisory/2026-04-29/#SECURITY-3676">Jenkins Security Advisory 2026-04-29</a> · <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-42521">NVD entry</a></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white" alt="HackerOne" />
+  <img src="https://img.shields.io/badge/Bugcrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white" alt="Bugcrowd" />
+  <img src="https://img.shields.io/badge/Intigriti-161A36?style=for-the-badge&logoColor=white" alt="Intigriti" />
+</p>
 
 ### 🚀 Right now
 
@@ -126,7 +157,7 @@ class Arafat:
   <img src="https://img.shields.io/badge/OONI-0588CB?style=for-the-badge" alt="OONI" />
 </p>
 
-<p align="center"><sub>Server hardening and audits · web application testing · bug bounty (HackerOne / Bugcrowd) · network measurement</sub></p>
+<p align="center"><sub>Server hardening and audits · web application testing · bug bounty (HackerOne / Bugcrowd / Intigriti) · coordinated disclosure · network measurement</sub></p>
 
 ### 📌 Featured
 
@@ -158,6 +189,13 @@ class Arafat:
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arafatsec/arafatsec/output/snake-light.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/arafatsec/arafatsec/output/snake-dark.svg" />
   </picture>
+</p>
+
+### 🤝 Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/arafatsec14/"><img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/arafatsec"><img src="https://img.shields.io/badge/GitHub-arafatsec-24273A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <!-- Footer -->
