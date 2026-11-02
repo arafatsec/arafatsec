@@ -112,12 +112,7 @@ class Arafat:
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Profile details" />
 </p>
 <p align="center">
-  <img height="165" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-  <img height="165" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" />
-</p>
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=arafatsec&background=1A1B27&border=414868&stroke=414868&ring=BB9AF7&fire=FF9E64&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=A9B1D6&border_radius=6" alt="GitHub streak" />
-  <img height="165" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" />
+  <img width="100%" src="https://streak-stats.demolab.com?user=arafatsec&background=1A1B27&border=414868&stroke=414868&ring=BB9AF7&fire=FF9E64&currStreakNum=C0CAF5&sideNums=C0CAF5&currStreakLabel=BB9AF7&sideLabels=7AA2F7&dates=A9B1D6&border_radius=6" alt="GitHub streak" />
 </p>
 
 <p align="center">
